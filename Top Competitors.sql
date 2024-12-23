@@ -1,3 +1,4 @@
+--tsql
 with max_scores as 
 (select distinct
  s.hacker_id ,s.challenge_id 
