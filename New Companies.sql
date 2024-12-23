@@ -1,3 +1,4 @@
+--tsql
 with c as 
 (select distinct company_code ,founder from company),
 lm as 
