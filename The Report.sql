@@ -1,3 +1,4 @@
+--mysql
 with g as (
 select id,name, marks ,grade from students,grades
 where marks >=min_mark and marks <= max_mark )
