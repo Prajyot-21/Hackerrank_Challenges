@@ -1,3 +1,4 @@
+--tsql
 with med as 
 (select Lat_n,
 row_number() over (order by lat_n) as row_asc,
