@@ -1,3 +1,4 @@
+--Oracle
 select Doctor,Professor,Singer,Actor from 
 (select row_number() over(partition by occupation order by name) as rn,Name,occupation from occupations order by name,occupation)
 Pivot 
